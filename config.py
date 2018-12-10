@@ -5,7 +5,7 @@
 
 
 class Config():
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://issmadm:issmadm@10.102.255.37:8069/dbissmadm?charset=utf8'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://。。。/dbissmadm?charset=utf8'
     """
     :param table_name 表名
     :param class_name 生成类名
@@ -23,11 +23,11 @@ class Config():
 
 
 class DevelopmentConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://issmadm:issmadm@10.102.255.37:8069/dbissmadm?charset=utf8'
+    
 
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://issmadm:issmadm@10.102.255.37:8069/dbissmadm?charset=utf8'
+    
 
 
 class ProductionConfig(Config):
